@@ -28,9 +28,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="rd" revision="vauxite" />
 
   <!-- External (Custom) -->
-  <project path="external/kotlinc" name="android_external_kotlinc" remote="ext" revision="vauxite" />
-  <project path="external/kotlinx.coroutines" name="android_external_kotlinx.coroutines" remote="ext" revision="vauxite" />
-  <project path="external/kotlinx.serialization" name="android_external_kotlinx.serialization" remote="ext" revision="vauxite" />
+  <project path="external/dtc" name="aospa-op12/android_external_dtc" remote="ext" revision="vauxite" />
   <project path="external/zstd" name="android_external_zstd" remote="ext" revision="vauxite" />
 
   <!-- External -->

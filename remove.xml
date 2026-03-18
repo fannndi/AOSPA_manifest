@@ -12,9 +12,7 @@
   <remove-project name="AOSPA/android_device_qcom_sepolicy_vndr" />
 
   <!-- External (Custom) -->
-  <remove-project name="platform/external/kotlinc" />
-  <remove-project name="platform/external/kotlinx.coroutines" />
-  <remove-project name="platform/external/kotlinx.serialization" />
+  <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/zstd" />
   <remove-project name="platform/external/exfatprogs" />
 
