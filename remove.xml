@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Build and Core -->
+  <remove-project name="AOSPA/android_bionic" />
+  <remove-project name="AOSPA/android_build_soong" />
+
+  <!-- Device -->
+  <remove-project name="AOSPA/android_device_qcom_common" />
+  <remove-project name="AOSPA/android_device_qcom_sepolicy_vndr" />
+
+  <!-- External (Custom) -->
+  <remove-project name="platform/external/kotlinc" />
+  <remove-project name="platform/external/kotlinx.coroutines" />
+  <remove-project name="platform/external/kotlinx.serialization" />
+  <remove-project name="platform/external/zstd" />
+  <remove-project name="platform/external/exfatprogs" />
+
+  <!-- External -->
+  <remove-project name="AOSPA/android_external_arm-optimized-routines" />
+
+  <!-- Frameworks -->
+  <remove-project name="AOSPA/android_frameworks_base" />
+  <remove-project name="AOSPA/android_frameworks_native" />
+
+  <!-- Hardware -->
+  <remove-project name="AOSPA/android_hardware_interfaces" />
+
+  <!-- Manifest -->
+  <remove-project name="AOSPA/manifest" />
+
+  <!-- Packages (AOSPA) -->
+  <remove-project name="AOSPA/android_packages_apps_ParanoidSettings" />
+  <remove-project name="AOSPA/android_packages_apps_Paranoid_SystemUI" />
+
+  <!-- Packages -->
+  <remove-project name="AOSPA/android_packages_apps_Launcher3" />
+  <remove-project name="AOSPA/android_packages_apps_Settings" />
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/services/DeviceAsWebcam" />
+
+  <!-- System -->
+  <remove-project name="AOSPA/android_system_core" />
+
+  <!-- Vendor (AOSPA) -->
+  <remove-project name="AOSPA/android_vendor_aospa" />
+  <remove-project name="AOSPA/android_vendor_aospa_translations" />
+  <remove-project name="proprietary_vendor_qcom_common" />
+  <remove-project name="android_vendor_google_pixel" />
+
+  <!-- Vendor (QCOM Vendor) -->
+  <remove-project name="AOSPA/android_vendor_qcom-opensource_usb" />
+
+</manifest>

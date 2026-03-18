@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- External -->
+  <project path="external/exfatprogs" name="LineageOS/android_external_exfatprogs" remote="github" revision="lineage-22.2" />
+  <project path="external/htop" name="LineageOS/android_external_htop" remote="github" revision="lineage-22.2" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="lineage-22.2" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="lineage-22.2" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="lineage-22.2" />
+  <project path="external/openssh" name="LineageOS/android_external_openssh" remote="github" revision="lineage-22.2" />
+  <project path="external/rsync" name="LineageOS/android_external_rsync" remote="github" revision="lineage-22.2" />
+  <project path="external/unrar" name="LineageOS/android_external_unrar" remote="github" revision="lineage-22.2" />
+  <project path="external/vim" name="LineageOS/android_external_vim" remote="github" revision="lineage-22.2" />
+
+</manifest>

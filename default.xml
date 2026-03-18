@@ -48,8 +48,21 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <remote  name="rd"
+           fetch="https://github.com/rd-stuffs"/>
+
+  <remote  name="fan"
+           fetch="https://github.com/fanndi"/>
+
+  <remote  name="ext"
+           fetch="https://github.com/aospa-op12"/>
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
+
+  <include name="remove.xml"/>
+  <include name="lineage.xml"/>
+  <include name="surya.xml"/>
 
 </manifest>
