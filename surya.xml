@@ -13,7 +13,7 @@
 
   <project path="bionic" name="android_bionic" remote="ext" revision="vauxite" />
 
-  <project path="art" name="aospa-op12/android_art" remote="ext" revision="vauxite" />
+  <project path="art" name="android_art" remote="ext" revision="vauxite" />
 
   <project path="build/soong" name="android_build_soong" remote="fan" revision="vauxite" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -28,7 +28,8 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="rd" revision="vauxite" />
 
   <!-- External (Custom) -->
-  <project path="external/dtc" name="aospa-op12/android_external_dtc" remote="ext" revision="vauxite" />
+  <project path="external/dtc" name="android_external_dtc" remote="ext" revision="vauxite" />
+
   <project path="external/zstd" name="android_external_zstd" remote="ext" revision="vauxite" />
 
   <!-- External -->
@@ -82,7 +83,14 @@
 
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="ext" clone-depth="1" revision="vauxite" />
 
-<!-- Vendor (QCOM Vendor) -->
+  <!-- Vendor (QCOM QSSI) -->
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom-opensource_display-commonsys" remote="ext" revision="vauxite" />
+
+  <!-- Vendor (QCOM Vendor) -->
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="ext" revision="vauxite" />
+
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy" name="AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospa" revision="vauxite-legacy" />
+
   <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom-opensource_usb" remote="ext" revision="vauxite-pakala" />
 
 </manifest>
