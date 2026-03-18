@@ -2,6 +2,8 @@
 <manifest>
 
   <!-- Build and Core -->
+  <remove-project name="AOSPA/android_build" />
+  <remove-project name="AOSPA/android_art" />
   <remove-project name="AOSPA/android_bionic" />
   <remove-project name="AOSPA/android_build_soong" />
 

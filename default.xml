@@ -52,7 +52,7 @@
            fetch="https://github.com/rd-stuffs"/>
 
   <remote  name="fan"
-           fetch="https://github.com/fanndi"/>
+           fetch="https://github.com/fannndi"/>
 
   <remote  name="ext"
            fetch="https://github.com/aospa-op12"/>
