@@ -2,9 +2,9 @@
 <manifest>
 
   <!-- Build and Core -->
-  <project path="bionic" name="android_bionic" remote="ext" revision="vauxite" />
+  <project path="bionic" name="android_bionic" remote="rd" revision="vauxite" />
 
-  <project path="build/soong" name="android_build_soong" remote="ext" revision="vauxite" >
+  <project path="build/soong" name="android_build_soong" remote="rd" revision="vauxite" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
