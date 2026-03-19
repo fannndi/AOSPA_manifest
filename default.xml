@@ -57,6 +57,9 @@
   <remote  name="ext"
            fetch="https://github.com/aospa-op12"/>
 
+  <remote  name="faiz"
+           fetch="https://github.com/pa-faiz"/>
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
